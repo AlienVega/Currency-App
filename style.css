@@ -1,0 +1,36 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+#container{
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid lightcoral;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(68, 104, 91,0.5);
+}
+input{
+    padding: 11px;
+    margin: 0px 10px;
+    width: 110x;
+}
+select{
+    padding: 5px;
+}
+#dev{
+    margin: 20px 5px 0px;
+    font-style: italic;
+}
